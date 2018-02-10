@@ -36,4 +36,4 @@ quill.insertEmbed(index, 'video', src, 'user');
  
  
 #### Video Demo
-[See It In Action](http://recordit.co/n5EAZFUrBg)
+[See It In Action](http://recordit.co/AWHy9FuQfP)
