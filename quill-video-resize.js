@@ -119,7 +119,7 @@ class VideoBuilder {
   buildAction(type) {
     const button = document.createElement('span');
     button.className = `td-quill-video-align-action td-quill-video-${type}`;
-    button.innerHTML = `<i class="fa fa-align-${type}" aria-hidden="true"></i>`;
+    button.innerHTML = `<i class="fa td-align-${type}" aria-hidden="true"></i>`;
     button.addEventListener('click', () => {
       this.quill.setSelection(this.node.offset(this.quill.scroll), 1, 'user');
       if (type === 'left') { return this.quill.format('align', null); }
