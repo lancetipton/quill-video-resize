@@ -31,3 +31,5 @@ editor.insertEmbed(index, 'video', src, 'user');
   // I heard you like quill in your quill, so I added some quill to all the quills!
  ```
  
+** Font Awesome **
+I'm using font awesome for icons, so they are used for the align buttons. I'll try to remove the dependancy at some point.
