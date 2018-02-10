@@ -9,19 +9,20 @@ Include both the JS and CSS files. Then add this to your codes:
 
 // Import the format
 import { Video } from 'path_to_file/quill-video-resize.js'
+require("path_to_file/td-quill-video.css");
 
 // register with Quill
 Quill.register({ 'formats/video': Video });
 
 // Build the editor
-editor = new Quill(editorElem, config);
+quill = new Quill(domElem, config);
 
 // You must add the editor to the root element after the editor was created and before the video embed!
 quill.root.quill = quill;
 
 // Embed the video into the editor:
 let src = 'https://www.youtube.com/embed/o-KdQiObAGM'
-editor.insertEmbed(index, 'video', src, 'user');
+quill.insertEmbed(index, 'video', src, 'user');
 
 ```
 
