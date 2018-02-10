@@ -9,7 +9,7 @@ Include both the JS and CSS files. Then add this to your codes:
 
 // Import the format
 import { Video } from 'path_to_file/quill-video-resize.js'
-require("path_to_file/td-quill-video.css");
+require("path_to_file/quill-video-resize.css");
 
 // register with Quill
 Quill.register({ 'formats/video': Video });
