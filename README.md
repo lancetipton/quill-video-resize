@@ -3,6 +3,7 @@
 This was the outcome of learning Quill, and at the same time needing videos to be resizeable. Im sure this could be done better as a module, but when I started building it, I started it as a format not knowing what it would turn into. I may eventually move it into a module, but I'm not making any promises. Feel free to fork and knock it out.
 
 ## To use:
+Include both the JS and CSS files. Then add this to your codes:
 
 ```javascript
 
@@ -30,6 +31,8 @@ editor.insertEmbed(index, 'video', src, 'user');
   quill.root.quill = quill;
   // I heard you like quill in your quill, so I added some quill to all the quills!
  ```
+ 
+ 
  
 #### Video Demo
 [See It In Action](http://recordit.co/n5EAZFUrBg)
