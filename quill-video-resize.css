@@ -78,3 +78,15 @@
   box-sizing: border-box;
   cursor: nesw-resize;  
 }
+.ql-editor .td-video .td-align-left:after{ 
+  content: "\ \21E4"; 
+} 
+.ql-editor .td-video .td-align-center:after{ 
+  content: "\ \2194";
+  position: relative;
+  left: -2px;
+  top: -1px;
+} 
+.ql-editor .td-video .td-align-right:after{
+  content: "\ \21E5"; 
+}
