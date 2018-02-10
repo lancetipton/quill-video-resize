@@ -24,12 +24,12 @@ editor.insertEmbed(index, 'video', src, 'user');
 
 ```
 
-** You must add the editor to the root element after the editor was created and before the video embed!**
+### You must add the editor to the root element after the editor was created and before the video embed!
 ```javascript
   
   quill.root.quill = quill;
   // I heard you like quill in your quill, so I added some quill to all the quills!
  ```
  
-** Font Awesome **
+### Font Awesome
 I'm using font awesome for icons, so they are used for the align buttons. I'll try to remove the dependancy at some point.
