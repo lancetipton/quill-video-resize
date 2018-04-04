@@ -31,9 +31,27 @@ quill.insertEmbed(index, 'video', src, 'user');
   
   quill.root.quill = quill;
   // I heard you like quill in your quill, so I added some quill to all the quills!
- ```
+```
+
+#### Align Icons
+If you have Font Awesome in your project, you can remove these style rules from the included css and it will use the Font Awesome align icons instead
+```css
+.ql-editor .td-video .td-align-left:after{ 
+  content: "\ \21E4"; 
+} 
+.ql-editor .td-video .td-align-center:after{ 
+  content: "\ \2194";
+  position: relative;
+  left: -2px;
+  top: -1px;
+} 
+.ql-editor .td-video .td-align-right:after{
+  content: "\ \21E5"; 
+}
+```
  
- 
+#### React Demo
+For an example checkout this [Fork](https://github.com/lancetipton/react-quill-experiment)
  
 #### Video Demo
 [See It In Action](http://recordit.co/AWHy9FuQfP)
